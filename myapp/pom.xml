@@ -34,13 +34,6 @@
 					<!-- Use a better name for the tag -->
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
-		<dependencies>
-			<dependency>
-				<groupId>org.apache.maven.scm</groupId>
-				<artifactId>maven-scm-provider-gitexe</artifactId>
-				<version>1.9.1</version>
-			</dependency>
-		</dependencies>
 		</plugin>
     </plugins>
 </build>
