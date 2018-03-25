@@ -20,10 +20,6 @@
 	<properties>
 		<project.scm.id>git</project.scm.id>
 	</properties>
-	<repository>
-		<id>localDeploy</id>
-		<url>file:///C:\Users\mKorisnik\Poject</url>
-	</repository>
 	<build>
     <pluginManagement>
 		<plugins>
