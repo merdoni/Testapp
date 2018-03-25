@@ -15,10 +15,15 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<url>https://github.com/merdoni/Testapp.git</url>
-		<connection>scm:git:https://github.com/merdoni/Testapp.git</connection>
-      <tag>HEAD</tag>
+		<developerConnection>scm:git:https://github.com/merdoni/Testapp.git</developerConnection>
   </scm>
+  <property>
+	<project.scm.id>git</project.scm.id>
+</property>
+<repository>
+<id>localDeploy</id>
+<url>file:///C:\Users\mKorisnik\Poject</url>
+</repository>
   <build>
     <pluginManagement>
 		<plugins>
