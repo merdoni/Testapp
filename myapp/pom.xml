@@ -15,12 +15,6 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<developerConnection>
-			scm:git:https://github.com/merdoni/Testapp.git
-		</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<scm>
 		<url>https://github.com/merdoni/Testapp.git</url>
 		<connection>scm:git:https://github.com/merdoni/Testapp.git</connection>
       <tag>HEAD</tag>
