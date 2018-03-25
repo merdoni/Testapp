@@ -3,7 +3,7 @@
   <groupId>com.datum.app</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0.2-SNAPSHOT</version>
+  <version>1.0.0.3-SNAPSHOT</version>
   <name>myapp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
