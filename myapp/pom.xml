@@ -3,7 +3,7 @@
   <groupId>com.datum.app</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0.3-SNAPSHOT</version>
+  <version>1.0.0.0-SNAPSHOT</version>
   <name>myapp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
@@ -33,6 +33,8 @@
 			<pushReleases>true</pushReleases>
 			<pushHotfixes>true</pushHotfixes>
 			<noDeploy>false</noDeploy>
+			<username>merdoni</username>
+			<password>Ifqhtkzp1!</password>
 		</configuration>
 		</plugin>
 		<plugin>
