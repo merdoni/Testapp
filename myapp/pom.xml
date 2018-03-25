@@ -3,7 +3,7 @@
   <groupId>com.datum.app</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0.2</version>
+  <version>1.0.0.2-SNAPSHOT</version>
   <name>myapp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
@@ -15,14 +15,15 @@
 		</dependency>
 	</dependencies>
 	<scm>
+		<connection>scm:git:https://github.com/merdoni/Testapp.git</connection>
+		<url>scm:git:https://github.com/merdoni/Testapp.git</url>
 		<developerConnection>scm:git:https://github.com/merdoni/Testapp.git</developerConnection>
-	  <tag>v1.0.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<properties>
 		<project.scm.id>git</project.scm.id>
 	</properties>
 	<build>
-    <pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -44,7 +45,17 @@
 				</dependencies>
 			</plugin>
 		</plugins>
-		 </pluginManagement>
 </build>
-
+<distributionManagement>
+	<repository>
+		<id>datum</id>
+		<name>Released artifacts in local artifactory</name>
+		<url>file:///Users/mKorisnik/Poject/Test</url>
+	</repository>
+	<snapshotRepository>
+		<id>datum-snapshot</id>
+		<name>Snapshot artifacts in local artifactory</name>
+		<url>file:///Users/mKorisnik/Poject/Test</url>
+	</snapshotRepository>
+</distributionManagement>
 </project>
