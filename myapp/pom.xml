@@ -3,7 +3,7 @@
   <groupId>com.datum.app</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0.2-SNAPSHOT</version>
+  <version>1.0.0.2</version>
   <name>myapp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
@@ -16,7 +16,8 @@
 	</dependencies>
 	<scm>
 		<developerConnection>scm:git:https://github.com/merdoni/Testapp.git</developerConnection>
-	</scm>
+	  <tag>v1.0.0.2</tag>
+  </scm>
 	<properties>
 		<project.scm.id>git</project.scm.id>
 	</properties>
